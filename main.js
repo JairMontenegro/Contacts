@@ -4,10 +4,10 @@ const name = document.querySelector('.name')
 const number = document.querySelector('.number')
 const adress = document.querySelector('.adress')
 const btnAddContact = document.querySelector('.btn-add-contact')
-
 const contactList = document.querySelector('.contactlist')
 
-const db = window.localStorage
+const db = window.loc
+alStorage
 
 
 btnAddContact.onclick = () =>{
